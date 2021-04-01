@@ -58,10 +58,10 @@ function draw() {
 
 function keyPressed() {
 	//write code here
-		if ( keyCode ==(RIGHT_ARROW) ){
+		if ( keyCode ==RIGHT_ARROW){
 		fairy.velocityX = 10
 	}
-	if( keyCode== (LEFT_ARROW)){
+	if( keyCode== LEFT_ARROW){
 			fairy.velocityX = -10
 		}
 	if( keyCode == DOWN_ARROW ) {
